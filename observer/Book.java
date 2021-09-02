@@ -6,22 +6,24 @@ public class Book {
     private String authorLastName;
 
     public Book(String title, String authorFirstName, String authorLastName) {
-
+        this.title = title;
+        this.authorFirstName = authorFirstName;
+        this.authorLastName = authorLastName;
     }
 
     public String getTitle() {
-        return "hello";
+        return this.title;
     }
 
     public String getAuthorFirstName() {
-        return "hello";
+        return this.authorFirstName;
     }
 
     public String getAuthorLastName() {
-        return "hello";
+        return this.authorLastName;
     }
 
     public String toString() {
-        return "this is my string.";
+        return "- " + getTitle() + " by: " + getAuthorFirstName() + " " + getAuthorLastName();
     }
 }
