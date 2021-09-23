@@ -11,7 +11,7 @@ public class AirlineDriver {
         american.addFlight("773C", "NY", "Charlotte", 120, 0);
         american.addFlight("233B", "Atlanta", "Seattle", 960, 1);
 
-        FlightIterator flights = american.createIterator();
+        Iterator flights = american.createIterator();
 
         while(flights.hasNext()){
             System.out.println(flights.next() + "\n");
