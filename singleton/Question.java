@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * Holds the information for a trivia question, and checks to see if a user's answer is correct.
  * @author Ana Boccanfuso

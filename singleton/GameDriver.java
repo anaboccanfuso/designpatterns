@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * A driver for the Trivia Game
  */

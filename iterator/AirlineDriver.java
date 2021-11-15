@@ -1,4 +1,4 @@
-package designpatterns.iterator;
+package iterator;
 import java.util.Iterator;
 
 public class AirlineDriver {

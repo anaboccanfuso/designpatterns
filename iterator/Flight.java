@@ -1,4 +1,4 @@
-package designpatterns.iterator;
+package iterator;
 
 /**
  * A class to set the attributes of a flight, as well
